@@ -1,0 +1,27 @@
+{
+  "name": "git-clone-promise",
+  "version": "1.0.0",
+  "description": "git clone promise",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huoqishi/git-clone-promise.git"
+  },
+  "keywords": [
+    "git",
+    "clone",
+    "promise"
+  ],
+  "author": "houqishi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/huoqishi/git-clone-promise/issues"
+  },
+  "homepage": "https://github.com/huoqishi/git-clone-promise#readme"
+}
