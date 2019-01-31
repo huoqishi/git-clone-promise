@@ -30,7 +30,7 @@ function processOn(process, sync, event, listener) {
  * @param {string} repo repo's clone path
  * @param {string} targetPath save path
  * @param {Object} opts options
- * @param {function} cb callback function, $0 for event, $1 for info.
+ * @param {function} cb callback function, $0 for process, $1 for event, $2 & $3 for callback params.
  * @return {promise}
  */
 module.exports = function (repo, targetPath, opts, cb) {
