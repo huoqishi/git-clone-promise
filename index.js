@@ -56,7 +56,9 @@ module.exports = function (repo, targetPath, opts, cb) {
     args.push(repo);
     args.push(targetPath);
 
-    args.push('--progress');
+    if (opts.progress) {
+        args.push('--progress');
+    }
     args = args.concat(userDefinedArgs);
 
     const process = spawn(git, args);
